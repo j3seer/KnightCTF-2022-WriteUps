@@ -1,4 +1,4 @@
-# challenge Description
+# Challenge description
 
 Challenge Link : http://find-pass-code-one.kshackzone.com/
 
