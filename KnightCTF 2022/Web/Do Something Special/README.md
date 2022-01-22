@@ -18,5 +18,7 @@ So we just urlencode it !
 
 ``` http://do-something-special.kshackzone.com/gr%40b_y%23ur_fl%40g_h3r3%21 ```
 
+and we get our flag : 
+
 ``` KCTF{Sp3cial_characters_need_t0_get_Url_enc0ded} ```
 
