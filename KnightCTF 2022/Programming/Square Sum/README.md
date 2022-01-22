@@ -3,7 +3,7 @@
 Have you ever heard the term "The sum of two squares"?
 
 It's like the following :
-
+```
 4 = 0^2 + 2^2
 8 = 2^2 + 2^2
 16 = 0^2 + 4^2
@@ -15,7 +15,7 @@ So write a program & find out the two values of 25000. Conditions are the follow
 
 * Remove the duplicates
 * Pick the third one
-
+```
 Flag Format : KCTF{0,1}
 
 **Author: TareqAhmed**
@@ -31,5 +31,5 @@ Output of solve.py :
 150 50
 158 6
 
-> KCTF{90,130}
+``` KCTF{90,130} ```
 
