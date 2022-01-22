@@ -25,15 +25,25 @@ in this page we find the php source code :
 
 " <?php
 require "flag.php";
+
 if (isset($_POST["pass_code"])) {
+
     if (strcmp($_POST["pass_code"], $flag) == 0 ) {
+
         echo "KCTF Flag : {$flag}";
+
     } else {
+
         echo "Oh....My....God. You entered the wrong pass code.<br>";
+
     }
+
 }
+
 if (isset($_GET["source"])) {
+
     print show_source(__FILE__);
+
 }
 
 ?> "
