@@ -1,4 +1,4 @@
-# challenge Description
+# Challenge description
 
 Challenge Link: http://wayback.kshackzone.com/index.html
 
