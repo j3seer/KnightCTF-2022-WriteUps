@@ -42,15 +42,23 @@ if (isset($_GET["source"])) {
 
 
 Looking through the php manual about strcmp we can see it's vulnerable to a bypass if not used properly 
-to put it simply it doesn't matter what is the pass_code or the flag as long as their strcmp gets us a 0 ! so we just need something to return "NULL" 
+
+To put it simply it doesn't matter what is the pass_code or the flag as long as their strcmp gets us a 0 ! 
+so we just need something to return "0" or "NULL"  
 
 **NOTE** : NULL == 0 in php
 
 ==> Arrays !
 
-Sending a post request using BurpSuite 
+For whichever reason in php when using strcmp and submit and empty array it returns NULL/0
+Sending a post request using BurpSuite :
 
-``` pass_code[]= ```
+``` 
+
+pass_code[]= 
+
+```
+
 
 And we get our flag ! 
 
