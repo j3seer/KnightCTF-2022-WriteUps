@@ -17,5 +17,5 @@ Looking through the source code we find a repo for the fake module used in this 
 
 from the title of the task we can already tell we have to look through the old commits and we find our flag
 
-> KCTF{version_control_is_awesome}
+``` KCTF{version_control_is_awesome} ```
 
