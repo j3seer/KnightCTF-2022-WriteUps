@@ -44,7 +44,7 @@ if (isset($_GET["source"])) {
 ?>
 ```
 
-We can see we have to submit the md5 hash of the pass_code ! 
+We can see we have php type juggling here and we have to submit the md5 hash of the pass_code ! 
 
 ==> MD5 Magic Hashes !
 
