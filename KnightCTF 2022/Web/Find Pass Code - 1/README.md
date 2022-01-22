@@ -50,7 +50,7 @@ to put it simply it doesn't matter what is the pass_code or the flag as long as 
 
 Sending a post request using BurpSuite 
 
-> pass_code[]=
+``` pass_code[]= ```
 
 And we get our flag ! 
 
