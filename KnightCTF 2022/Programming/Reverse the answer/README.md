@@ -19,7 +19,7 @@ Example Flag : KCTF{123}
 
 -----------------------------------------------------------
 
-Output of solve.py :
+Output of sol.py :
 
 12252696
 
