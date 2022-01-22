@@ -8,6 +8,8 @@ I mostly focused on Web and sometimes go to programming or stegnography
 
 ![image](https://user-images.githubusercontent.com/58823465/150648421-f37928ab-2cb6-4e89-bb3c-7e45072fc151.png)
 
+## team score :
+![image](https://user-images.githubusercontent.com/58823465/150650208-9b2236bb-8efa-4bfa-923f-09d9759f12c7.png)
 
 ## My solves : 
 
