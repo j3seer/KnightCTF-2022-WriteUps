@@ -22,8 +22,8 @@ So we need to send a source param
 **NOTE**: doesnt matter what u put in the "source" param because it's a dummy param just to view the source code 
 in this page we find the php source code :
 
-```
- <?php
+```php
+<?php
 require "flag.php";
 if (isset($_POST["pass_code"])) {
     if (strcmp($_POST["pass_code"], $flag) == 0 ) {
