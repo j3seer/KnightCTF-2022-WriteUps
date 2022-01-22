@@ -22,7 +22,7 @@ So we need to send a source param
 **NOTE**: doesnt matter what u put in the "source" param because it's a dummy param just to view the source code 
 in this page we find the php source code :
 
-`
+
 <?php
 require "flag.php";
 if (isset($_POST["pass_code"])) {
@@ -37,7 +37,7 @@ if (isset($_GET["source"])) {
 }
 
 ?>
-`
+
 
 Looking through the php manual about strcmp we can see it's vulnerable to a bypass if not used properly 
 to put it simply it doesn't matter what is the pass_code or the flag as long as their strcmp gets us a 0 ! so we just need something to return "NULL" 
