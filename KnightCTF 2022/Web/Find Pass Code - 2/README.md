@@ -54,4 +54,4 @@ https://github.com/ryanking13/ctf-cheatsheet/blob/master/Cryptography/Useful_Has
 
 Using this number "0e1137126905" we can bypass this bad implementation of md5 comparaisions and get our flag
 
-> KCTF Flag : KCTF{ShOuD_wE_cOmPaRe_MD5_LiKe_ThAt__Be_SmArT}
+``` KCTF Flag : KCTF{ShOuD_wE_cOmPaRe_MD5_LiKe_ThAt__Be_SmArT} ```
