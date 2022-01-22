@@ -25,10 +25,15 @@ Flag Format : KCTF{0,1}
 Output of solve.py :
 
 6 158
+
 50 150 
+
 90 130 
+
 130 90
+
 150 50
+
 158 6
 
 ``` KCTF{90,130} ```
