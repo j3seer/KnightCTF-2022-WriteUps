@@ -17,7 +17,8 @@ We also get a comment telling us the same thing
 
 Passing the source param we get this source code : 
 
-`<?php
+``` 
+<?php
 require "flag.php";
 $old_pass_codes = array("0e215962017", "0e730083352", "0e807097110", "0e840922711");
 $old_pass_flag = false;
@@ -41,7 +42,7 @@ if (isset($_GET["source"])) {
 }
 
 ?>
-`
+```
 
 We can see we have to submit the md5 hash of the pass_code ! 
 
