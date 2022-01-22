@@ -1,4 +1,4 @@
-# challenge Description
+# Challenge description
 
 Alex is trying to get a flag from this website. But something is wrong with the button. Can you help him to get the flag?
 
