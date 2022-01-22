@@ -24,17 +24,8 @@ Flag Format : KCTF{0,1}
 
 Output of solve.py :
 
-6 158
+![image](https://user-images.githubusercontent.com/58823465/150652307-e3f79e6a-4112-4385-a97e-19057ee6b0c8.png)
 
-50 150 
-
-90 130 
-
-130 90
-
-150 50
-
-158 6
 
 ``` KCTF{90,130} ```
 
