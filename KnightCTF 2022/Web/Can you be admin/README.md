@@ -67,9 +67,9 @@ so we just need to change ```Normal_User``` to ```Admin```
  ```Admin``` in base64 is ```QWRtaW4=```
 
 payload :
-
+``` 
 VXNlcl9UeXBl=QWRtaW4%3D
-
+``` 
 ![6](https://user-images.githubusercontent.com/58823465/150653915-0aafbc27-abc0-4753-9f0f-f0576c90dff6.png)
 
 There is our flag !
