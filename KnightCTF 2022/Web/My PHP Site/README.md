@@ -13,11 +13,13 @@ Flag Format: KCTF{S0m3_T3xt_H3re}
 **Author: TareqAhmed**
 
 -----------------------------------------------------------
-img1
+![1](https://user-images.githubusercontent.com/58823465/150654439-247ac24e-4390-4a01-8621-c35dc201c396.png)
+
 From the url we can tell that this is an LFI
 
 So trying out different urls like **flag.php** , **flag.txt** didn't work until i tried **index.php** and we get this ERROR message 
-img2
+![2](https://user-images.githubusercontent.com/58823465/150654442-68957cef-ef28-4b45-a529-d89d10925008.png)
+
 
 So it seems like it's blocking us somehow or its "filtering" us out so using this payload we can bypass that 
 
@@ -28,7 +30,7 @@ You can find more LFI payloads at this repo
 
 > https://github.com/payloadbox/rfi-lfi-payload-list
 
-img3
+![3](https://user-images.githubusercontent.com/58823465/150654448-5c54d53b-6c81-428b-a422-a9c286fba12d.png)
 
 so we just decode it ! 
 
