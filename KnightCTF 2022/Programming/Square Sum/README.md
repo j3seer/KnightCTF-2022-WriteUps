@@ -1,4 +1,4 @@
-# challenge Description
+# Challenge description
 
 Have you ever heard the term "The sum of two squares"?
 
