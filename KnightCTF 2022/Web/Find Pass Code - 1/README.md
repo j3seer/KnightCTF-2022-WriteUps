@@ -54,4 +54,4 @@ Sending a post request using BurpSuite
 
 And we get our flag ! 
 
-> **KCTF Flag : KCTF{ShOuLd_We_UsE_sTrCmP_lIkE_tHaT}**
+``` KCTF Flag : KCTF{ShOuLd_We_UsE_sTrCmP_lIkE_tHaT} ```
