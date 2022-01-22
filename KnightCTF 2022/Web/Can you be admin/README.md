@@ -19,20 +19,22 @@ Only KnightSquad agents can access this page.
 ```
 So we need to set our user-agent header to KnightSquad using burp suite
 
-img1
+![1](https://user-images.githubusercontent.com/58823465/150653871-b9416477-fd8f-48d5-a963-fbc81e51f79f.png)
 
-then we get to this page 
+
+then we get this 
 
 ```
 This page refers to knight squad home network. So, Only Knight Squad home network can access this page.
 ```
 ==>  We need to set our **Referer** header to **localhost** 
 
-img2
+![3](https://user-images.githubusercontent.com/58823465/150653878-fc3aba21-b38a-474f-b9aa-3925794666f7.png)
 
-img3
 
-img4
+Checking the source code we find a jsfuck 
+
+![4](https://user-images.githubusercontent.com/58823465/150653901-886489ea-a192-4be5-b5b5-96887b02004a.png)
 
 from the jsfuck code we get this weird string 
 
@@ -49,7 +51,8 @@ password : IamKnight
 ```
 we login with the credentials and we arrive here 
 
-img5
+![5](https://user-images.githubusercontent.com/58823465/150653908-92d24f0a-058e-4c33-aa50-4bc3fda7cb83.png)
+
 
 since we have an account right now we must have a cookie and we do 
 
@@ -67,6 +70,8 @@ payload :
 
 VXNlcl9UeXBl=QWRtaW4%3D
 
-Scroll down and we find our flag !
+![6](https://user-images.githubusercontent.com/58823465/150653915-0aafbc27-abc0-4753-9f0f-f0576c90dff6.png)
+
+There is our flag !
 
 ``` KCTF{FiN4LlY_y0u_ar3_4dm1N}  ```
