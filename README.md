@@ -2,8 +2,9 @@
 
 Played with username **"ch0nguS"**
 
-Our team got 71/752 teams
-I mostly focused on Web and sometimes forensics or misc
+Our team got 71/752 teams 
+
+I mostly focused on Web and sometimes go to programming or stegnography 
 
 ![image](https://user-images.githubusercontent.com/58823465/150648421-f37928ab-2cb6-4e89-bb3c-7e45072fc151.png)
 
