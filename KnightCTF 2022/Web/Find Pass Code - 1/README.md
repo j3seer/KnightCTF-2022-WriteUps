@@ -23,7 +23,7 @@ So we need to send a source param
 in this page we find the php source code :
 
 
-<?php
+" <?php
 require "flag.php";
 if (isset($_POST["pass_code"])) {
     if (strcmp($_POST["pass_code"], $flag) == 0 ) {
@@ -36,7 +36,7 @@ if (isset($_GET["source"])) {
     print show_source(__FILE__);
 }
 
-?>
+?> "
 
 
 Looking through the php manual about strcmp we can see it's vulnerable to a bypass if not used properly 
