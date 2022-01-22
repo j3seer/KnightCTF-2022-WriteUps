@@ -1,4 +1,4 @@
-# challenge Description
+# Challenge description
 
 Let x = 1
 
