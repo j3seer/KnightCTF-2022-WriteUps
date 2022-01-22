@@ -1,4 +1,4 @@
-# challenge Description
+# Challenge description
 
 One of my friend developed this login panel and dared me to get the flag by logging in. I tired to bruteforce the login panel. But it doesn't work at all. Can you please figure out the login credentials or something more valuable for me?
 
