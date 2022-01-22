@@ -18,7 +18,8 @@ So we just need to decode it
 **Decoded** : 
 
 ```  
-if (document.forms[0].username.value == "83fe2a837a4d4eec61bd47368d86afd6" && document.forms[0].password.value =="a3fa67479e47116a4d6439120400b057") document.location = "150484514b6eeb1d99da836d95f6671d.php"
+if (document.forms[0].username.value == "83fe2a837a4d4eec61bd47368d86afd6" && document.forms[0].password.value =="a3fa67479e47116a4d6439120400b057") 
+    document.location = "150484514b6eeb1d99da836d95f6671d.php"
 ```
 
 Using those credentials to login we get our flag 
